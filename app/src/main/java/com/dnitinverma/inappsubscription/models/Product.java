@@ -1,4 +1,4 @@
-package inappsubscription.dnitinverma.inappsubscription.models;
+package com.dnitinverma.inappsubscription.models;
 
 import java.io.Serializable;
 

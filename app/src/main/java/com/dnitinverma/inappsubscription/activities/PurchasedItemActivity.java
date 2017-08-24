@@ -1,4 +1,4 @@
-package inappsubscription.dnitinverma.inappsubscription.activities;
+package com.dnitinverma.inappsubscription.activities;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -15,13 +15,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import com.android.vending.billing.IInAppBillingService;
+import com.dnitinverma.inappsubscription.AppProperties;
 import com.dnitinverma.inappsubscription.R;
-
-import inappsubscription.dnitinverma.inappsubscription.adapters.PurchasedItemsAdapter;
-import inappsubscription.dnitinverma.inappsubscription.inappbilling.AppProperties;
-import inappsubscription.dnitinverma.inappsubscription.inappbilling.utils.IabHelper;
-import inappsubscription.dnitinverma.inappsubscription.inappbilling.utils.IabResult;
-import inappsubscription.dnitinverma.inappsubscription.models.PurchasedItem;
+import com.dnitinverma.inappsubscription.adapters.PurchasedItemsAdapter;
+import com.dnitinverma.inappsubscription.inappbilling.utils.IabHelper;
+import com.dnitinverma.inappsubscription.inappbilling.utils.IabResult;
+import com.dnitinverma.inappsubscription.models.PurchasedItem;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -117,7 +116,7 @@ public class PurchasedItemActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            return params[0];
+            return null;
         }
 
         @Override

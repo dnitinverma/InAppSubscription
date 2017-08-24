@@ -9,15 +9,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="inappsubscription.dnitinverma.inappsubscription.activities.MainActivity">
+        <activity android:name="com.dnitinverma.inappsubscription.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="inappsubscription.dnitinverma.inappsubscription.activities.BuyNewItemActivity"/>
-        <activity android:name="inappsubscription.dnitinverma.inappsubscription.activities.PurchasedItemActivity"/>
+        <activity android:name="com.dnitinverma.inappsubscription.activities.BuyNewItemActivity"/>
+        <activity android:name="com.dnitinverma.inappsubscription.activities.PurchasedItemActivity"/>
     </application>
 
 </manifest>

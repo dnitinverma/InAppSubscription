@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package inappsubscription.dnitinverma.inappsubscription.inappbilling.utils;
+package com.dnitinverma.inappsubscription.inappbilling.utils;
 
 /**
  * Exception thrown when encountering an invalid Base64 input character.

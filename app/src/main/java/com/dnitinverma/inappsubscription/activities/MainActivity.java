@@ -1,4 +1,4 @@
-package inappsubscription.dnitinverma.inappsubscription.activities;
+package com.dnitinverma.inappsubscription.activities;
 
 import android.content.Context;
 import android.content.Intent;

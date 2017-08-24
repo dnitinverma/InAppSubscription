@@ -1,4 +1,4 @@
-package inappsubscription.dnitinverma.inappsubscription.adapters;
+package com.dnitinverma.inappsubscription.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import com.digivive.inappsubscriptiondemo.R;
-import com.digivive.inappsubscriptiondemo.activities.BuyNewItemActivity;
-import inappsubscription.dnitinverma.inappsubscription.models.Product;
+import com.dnitinverma.inappsubscription.R;
+import com.dnitinverma.inappsubscription.activities.BuyNewItemActivity;
+import com.dnitinverma.inappsubscription.models.Product;
 
 import java.util.ArrayList;
 

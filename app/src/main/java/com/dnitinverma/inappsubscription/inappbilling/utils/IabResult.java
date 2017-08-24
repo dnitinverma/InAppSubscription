@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package inappsubscription.dnitinverma.inappsubscription.inappbilling.utils;
+package com.dnitinverma.inappsubscription.inappbilling.utils;
 
 /**
  * Represents the result of an in-app billing operation.

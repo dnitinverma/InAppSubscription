@@ -1,4 +1,4 @@
-package inappsubscription.dnitinverma.inappsubscription.inappbilling;
+package com.dnitinverma.inappsubscription;
 
 /**
  * This class is used for set your google play key (Base 64 InApp key) 

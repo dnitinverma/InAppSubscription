@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package inappsubscription.dnitinverma.inappsubscription.inappbilling.utils;
+package com.dnitinverma.inappsubscription.inappbilling.utils;
 
 import android.text.TextUtils;
 import android.util.Log;

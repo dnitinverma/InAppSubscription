@@ -1,4 +1,4 @@
-package inappsubscription.dnitinverma.inappsubscription.activities;
+package com.dnitinverma.inappsubscription.activities;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -25,11 +25,11 @@ import android.widget.Toast;
 import com.android.vending.billing.IInAppBillingService;
 import com.dnitinverma.inappsubscription.R;
 
-import inappsubscription.dnitinverma.inappsubscription.adapters.BuyItemsAdapter;
-import inappsubscription.dnitinverma.inappsubscription.inappbilling.AppProperties;
-import inappsubscription.dnitinverma.inappsubscription.inappbilling.utils.IabHelper;
-import inappsubscription.dnitinverma.inappsubscription.inappbilling.utils.IabResult;
-import inappsubscription.dnitinverma.inappsubscription.models.Product;
+import com.dnitinverma.inappsubscription.AppProperties;
+import com.dnitinverma.inappsubscription.adapters.BuyItemsAdapter;
+import com.dnitinverma.inappsubscription.inappbilling.utils.IabHelper;
+import com.dnitinverma.inappsubscription.inappbilling.utils.IabResult;
+import com.dnitinverma.inappsubscription.models.Product;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -142,7 +142,7 @@ public class BuyNewItemActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            return params[0];
+            return null;
         }
 
         @Override
